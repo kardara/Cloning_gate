@@ -29,26 +29,23 @@
             </div>
         </div>  
     </div>
-    <header class="bg-[url('../assets/avian-bird-flu.jpg')]  bg-cover bg-center">
+    <header class="bg-[url('/assets/avian-bird-flu.jpg')]  bg-cover bg-center">
         <div class="bg-black/70">
         <div class="flex justify-between items-center border-b-2 border-white p-3">
+            <p class="md:hidden md:w-0"><a href=""><i class="fa-solid fa-magnifying-glass" style="color: #fafcff;"></i></a></p>
             <div class="">
-                <img class="w-52" src="assets/UPenn-logo.svg " alt="">
+                <img class="w-[100px] md:w-52" src="assets/UPenn-logo.svg " alt="">
             </div>
-            <div class="flex gap-3 items-center">
+           <img class="md:hidden" src="assets/icons8-menu-50 (1).png" alt="">
+            <div class="hidden md:flex gap-3 items-center">
                 <p><a href=""><i class="fa-solid fa-magnifying-glass" style="color: #fafcff;"></i></a></p>
                 <a href="#" class="text-white hover:text-gray-300">RESOURCES <i class="fa-solid fa-chevron-down ml-2" style="color: #fafafa;"></i></a>
                 <button class="bg-red-900 p-4 text-white"><a href="">GIVE TO PENN</a></button>
             </div>
         </div>
-        
-        <!-- Navigation Bar -->
-        <nav class="grid place-content-end">
-            <div class="">
-                <!-- Logo -->
-                
 
-                <!-- Navigation Links -->
+        <nav class="hidden md:grid place-content-end">
+            <div>
                 <div class="space-x-6">
                     <a href="#" class="text-white hover:text-gray-300">ACADEMICS <i class="fa-solid fa-chevron-down ml-2" style="color: #fafafa;"></i><span class="font-bold text-gray-400 ml-2"> /</span></a>
                     <a href="#" class="text-white hover:text-gray-300">ADMISSIONS & AID<span class="font-bold text-gray-400 ml-2"> /</span></a>
@@ -60,7 +57,6 @@
             </div>
         </nav>
 
-        <!-- Header Content -->
         <div class="container mx-auto p-5 text-white mt-20">
             <p class="text-xl mb-4">HEALTH SCIENCES</p>
             <h1 class="text-3xl mb-6 max-w-xl">
@@ -72,7 +68,116 @@
         </div>
     </div>
     </header>
+    <!-- news -->
+    <section class="p-5">
+        <!-- Header with Title -->
+        <header class="mb-5">
+            <h1 class="text-blue-950 text-2xl md:text-3xl font-bold">News</h1>
+        </header>
     
+        <!-- Grid Layout -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <!-- Left Column -->
+            <div class="p-4 border-b-2 border-gray-300">
+                <a href="#">
+                    <img src="assets/pavilion-gift-teaser.jpg" alt="Pavilion Gift" class="w-full h-auto">
+                </a>
+                <p class="text-center text-red-800 my-2">
+                    <a href="#" class="hover:underline">Health Sciences</a>
+                </p>
+                <h3 class="text-center text-blue-950 font-semibold text-xl md:text-3xl">
+                    <a href="#" class="hover:underline">
+                        Catherine and Anthony Clifton make transformational gift to accelerate patient care, research, and education at Penn Medicine
+                    </a>
+                </h3>
+            </div>
+    
+            <!-- Right Column -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:border-l-2 border-gray-300 md:pl-4">
+                <!-- Item 1 -->
+                <div class="p-4 border-b-2 border-gray-300">
+                    <a href="#">
+                        <img  src="assets/epstein-jon-teaser.jpg" alt="Epstein Jon" class="w-full h-auto">
+                    </a>
+                    <p class="text-center text-red-800 my-2">
+                        <a href="#" class="hover:underline">Health Sciences</a>
+                    </p>
+                    <h3 class="text-center text-blue-950 font-semibold text-lg md:text-xl">
+                        <a href="#" class="hover:underline">
+                            Jonathan A. Epstein named head of Perelman School of Medicine and Penn Health System
+                        </a>
+                    </h3>
+                </div>
+    
+                <!-- Item 2 -->
+                <div class="p-4 border-b-2 border-gray-300">
+                    <a href="#">
+                        <img src="assets/america-250-teaser-social-main.jpg" alt="America 250" class="w-full h-auto">
+                    </a>
+                    <p class="text-center text-red-800 my-2">
+                        <a href="#" class="hover:underline">Arts, Humanities, & Social Sciences</a>
+                    </p>
+                    <h3 class="text-center text-blue-950 font-semibold text-lg md:text-xl">
+                        <a href="#" class="hover:underline">
+                            Penn prepares to mark America’s 250th birthday
+                        </a>
+                    </h3>
+                </div>
+    
+                <!-- Item 3 -->
+                <div class="p-4 border-b-2 border-gray-300">
+                    <a href="#">
+                        <img src="assets/preservation-campus-teaser.jpg" alt="Preservation Campus" class="w-full h-auto">
+                    </a>
+                    <p class="text-center text-red-800 my-2">
+                        <a href="#" class="hover:underline">Arts, Humanities, & Social Sciences</a>
+                    </p>
+                    <h3 class="text-center text-blue-950 font-semibold text-lg md:text-xl">
+                        <a href="#" class="hover:underline">
+                            A rare on-campus assignment for preservation students holds ‘small revelations’
+                        </a>
+                    </h3>
+                </div>
+    
+                <!-- Item 4 -->
+                <div class="p-4 border-b-2 border-gray-300">
+                    <a href="#">
+                        <img src="assets/chan-vanessa-teaser.jpg" alt="Chan Vanessa" class="w-full h-auto">
+                    </a>
+                    <p class="text-center text-red-800 my-2">
+                        <a href="#" class="hover:underline">Science & Technology</a>
+                    </p>
+                    <h3 class="text-center text-blue-950 font-semibold text-lg md:text-xl">
+                        <a href="#" class="hover:underline">
+                            A rare on-campus assignment for preservation students holds ‘small revelations’
+                        </a>
+                    </h3>
+                </div>
+    
+                <!-- More News Link -->
+                <div class="col-span-2 text-center my-4">
+                    <a href="#" class="text-red-800 font-semibold hover:underline">MORE NEWS VIA PENN TODAY</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-2">
+        <div class="relative">
+            <img src="assets/penn-center-innovation.jpg" alt="" class="w-full">
+            <div class="absolute top-1/2 left-[300px] -translate-x-1/2 -translate-y-1/2 bg-blue-950 text-white p-5  w-2/10">
+                <p class="text-sm text-center uppercase">Campus & Community</p>
+                <h1 class="text-2xl font-semibold text-cente">Penn Center for Innovation celebrates 10 years</h1>
+                <h3 class="mt-2 text-sm text-cente">
+                    The University’snexus for technology transfer supports researchers in their innovative efforts, from CAR T to mRNA advancements that have dramatically reshaped the world.
+                </h3>
+            </div>
+        </div>
+    </section>
+    
+
+
+            
     <script src="./js/app.js"></script>
 </body>
 </html>
