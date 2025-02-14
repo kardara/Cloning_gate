@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./index.html"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'custom-bg': "url('/assets/avian-bird-flu.jpg')",
+      }
+    },
   },
   plugins: [],
 }
